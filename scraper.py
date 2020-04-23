@@ -9,16 +9,18 @@ import requests
 
 from bs4 import BeautifulSoup
 
-#from main import path
+from main import path
+from imdb_id import imdb_id
 
-path = "/media/chethan/WD My Passport Ultra/The Simpsons/"
+
+# Finding no of seasons present in the directory
 no_of_seasons = len(os.listdir(path))
 
 season_dict = {}
 
 for season in range(1, no_of_seasons + 1):
     # Tv series imdb website url
-    url = f'https://www.imdb.com/title/tt0096697/episodes?season={season}'
+    url = f'https://www.imdb.com/title/{imdb_id}/episodes?season={season}'
     headers = {
         'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0)\
         Gecko/20100101 Firefox/74.0'
@@ -59,12 +61,8 @@ for season in range(1, no_of_seasons + 1):
         for episode in sorted(episode_dict.keys()):
             episode_list.append(f'{episode} - {episode_dict[episode]}')
 
-        
-
+        # Inserting each seasons episode names list to a dictionary
         season_dict[season] = episode_list
         print(f'Season {season} extracted')
-        print(season_dict)
+        # Suspending execution for the amount of time to get the response
         time.sleep(req.elapsed.total_seconds())
-print(season_dict)
-        
-

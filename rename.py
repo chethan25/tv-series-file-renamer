@@ -13,6 +13,7 @@ from filenames_sort import sorted_alphanumeric
 new_season_dict = scraper.season_dict
 
 for season_no, episode_list in new_season_dict.items():
+    # Modifying path name to include season directory
     new_path = path + 'S' + str(season_no) + '/'
     episode = 0
     for episode_name in sorted_alphanumeric(os.listdir(new_path)):
