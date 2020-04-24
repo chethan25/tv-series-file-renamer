@@ -32,7 +32,7 @@ for season in range(1, no_of_seasons + 1):
     except requests.exceptions.HTTPError:
         raise SystemExit('An HTTP error occurred')
     except requests.exceptions.ConnectionError:
-        raise SystemExit('A Connection error occurred')
+        raise SystemExit('A connection error occurred')
     except requests.exceptions.Timeout:
         raise SystemExit('The request timed out')
     except requests.exceptions.RequestException:

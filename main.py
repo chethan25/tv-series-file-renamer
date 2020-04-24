@@ -7,7 +7,7 @@ import sys
 
 
 try:
-    # Store file path and tv series name using command line arguments
+    # Accept pathname and tv series name from command line arguments
     path = sys.argv[1]
     tv_series_name = sys.argv[2]
 except IndexError:

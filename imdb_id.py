@@ -21,14 +21,14 @@ try:
 except requests.exceptions.HTTPError:
     raise SystemExit('An HTTP error occurred')
 except requests.exceptions.ConnectionError:
-    raise SystemExit('A Connection error occurred')
+    raise SystemExit('A connection error occurred')
 except requests.exceptions.Timeout:
     raise SystemExit('The request timed out')
 except requests.exceptions.RequestException:
     raise SystemExit('There was an ambiguous exception that occurred\
         while handling your request')
 else:
-    # Getting json object
+    # Storing json object
     tv_series_json = req.json()
     # Finding imdb id based on the key 'imdbID'
     imdb_id = tv_series_json['imdbID']

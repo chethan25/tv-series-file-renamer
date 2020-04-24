@@ -14,8 +14,18 @@ new_season_dict = scraper.season_dict
 
 for season_no, episode_list in new_season_dict.items():
     # Modifying path name to include season directory
-    new_path = path + 'S' + str(season_no) + '/'
+    # based on operating system platform
+    if sys.platform.startswith('linux'):
+        new_path = path + 'S' + str(season_no) + '/'
+    elif sys.platform == 'win32':
+        new_path = path + 'S' + str(season_no) + '\\'
+    elif sys.platform == 'darwin':
+        new_path = path + 'S' + str(season_no) + '/'
+    else:
+        raise SystemExit('Unsupported operating system')
+
     episode = 0
+
     for episode_name in sorted_alphanumeric(os.listdir(new_path)):
         # Assign src with files path name
         src = new_path + episode_name
