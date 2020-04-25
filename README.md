@@ -40,4 +40,4 @@ After running the script: 2 - Mijo
   
 # Video Demo
 
-  ![Video](https://i.imgur.com/macIIWh.mp4)
+  ![Video](https://imgur.com/macIIWh)
