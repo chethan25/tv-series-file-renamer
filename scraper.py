@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Module to get and parse the tv series episodes name from imdb website
+Module to extract the tv series episode name from imdb website
 """
 import os
 import sys
