@@ -21,17 +21,17 @@ After running the script: 2 - Mijo
 * In the command line run pip3 install -r requirements.txt.
 * Make sure your folders are in the following format.
 
-  TV Series Name/
+  Folder Name/
   
-                | -- S1/
+             | -- S1/
 
-                | -- S2/
+             | -- S2/
 
-                | -- S3/
+             | -- S3/
 
-                | -- S4/
+             | -- S4/
 
-                | -- S5/
+             | -- S5/
   
 * Only Keep episode files in the season folders.
 
