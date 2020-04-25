@@ -21,8 +21,7 @@ After running the script: 2 - Mijo
 * In the command line run pip3 install -r requirements.txt.
 * Make sure your folders are in the following format.
 
-  Better Call Saul
-  
+  Better Call Saul/
                  | -- S1/
 
                  | -- S2/
