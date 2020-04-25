@@ -35,6 +35,8 @@ After running the script: 2 - Mijo
   
 * Only Keep episode files in the season folders.
 
+* Navigate to the package folder in the terminal
+
 * In the command line run python3 main.py path to TV Series Name folder TV Series Name
   
   For example $ python3 main.py "/home/user/Better Call Saul/" "better call saul"
