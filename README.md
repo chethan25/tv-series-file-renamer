@@ -38,6 +38,10 @@ After running the script: 2 - Mijo
   
   For example $ python3 main.py "/home/user/Better Call Saul/" "better call saul"
   
+  # Screenshot
+  
+  ![Image](https://imgur.com/N2wZGb1.png)
+  
 # Video Demo
 
   ![Video](https://imgur.com/macIIWh.gif)
