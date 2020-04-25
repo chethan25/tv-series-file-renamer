@@ -23,15 +23,15 @@ After running the script: 2 - Mijo
 
   TV Series Name/
   
-  |--S1
+  | -- S1/
   
-  |--S2
+  | -- S2/
   
-  |--S3
+  | -- S3/
   
-  |--S4
+  | -- S4/
   
-  |--S5
+  | -- S5/
   
 * Only Keep episode files in the season folders.
 * In the command line run python3 main.py <path to TV Series Name folder> <TV Series Name>
@@ -40,4 +40,4 @@ After running the script: 2 - Mijo
   
 # Video Demo
 
-  ![Video](https://imgur.com/kq7BKtX)
+  ![Video](https://i.imgur.com/kq7BKtX.mp4)
