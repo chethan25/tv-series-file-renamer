@@ -23,15 +23,15 @@ After running the script: 2 - Mijo
 
   Better Call Saul/
                 
-           | -- S1/
-
-           | -- S2/
-
-           | -- S3/
+  | -- S1/
+ 
+  | -- S2/
+  
+  | -- S3/
            
-           | -- S4/
+  | -- S4/
 
-           | -- S5/
+  | -- S5/
   
 * Only Keep episode files in the season folders.
 
