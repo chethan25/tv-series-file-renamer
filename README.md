@@ -52,4 +52,4 @@ After running the script: 2 - Mijo
 
 # gdds
  
- https://gist.github.com/chethan25/b1fd35a327cfc8e6204f82d6f501a7dc
+ <script src="https://gist.github.com/chethan25/b1fd35a327cfc8e6204f82d6f501a7dc.js"></script>
