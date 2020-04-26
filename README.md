@@ -51,7 +51,7 @@ After running the script: 2 - Mijo
   
   On Windows
   
-  \> python3 main.py "C:\\New folder\\Better Call Saul\\" "better call saul"
+  \> python3 main.py "C:\\\New folder\\\Better Call Saul\\\" "better call saul"
   
   # Screenshot
   
