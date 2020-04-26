@@ -39,11 +39,23 @@ After running the script: 2 - Mijo
 
 * In the command line run python3 main.py path to TV Series Name folder TV Series Name
   
-  For example $ python3 main.py "/home/user/Better Call Saul/" "better call saul"
+  For example
+  
+  On Linux or Mac OS
+  
+  $ python3 main.py "/home/user/Better Call Saul/" "better call saul"
   
   # Screenshot
   
   ![Image](https://imgur.com/N2wZGb1.png)
+  
+  On Windows
+  
+  > python3 main.py "C:\\New folder\\Better Call Saul\\" "better call saul"
+  
+  # Screenshot
+  
+  ![Image](https://i.imgur.com/1rm0uxe.png)
   
 # Video Demo
 
