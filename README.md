@@ -33,7 +33,7 @@ After running the script: 2 - Mijo
 
   | -- S5/
   
-* Only Keep episode files in the season folders.
+* Keep only episode files in the season folders.
 
 * Navigate to the package folder in the terminal
 
