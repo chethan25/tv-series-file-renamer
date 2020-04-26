@@ -18,6 +18,7 @@ After running the script: 2 - Mijo
 # Instructions to run the script
 
 * Download the package.
+* Navigate to the package folder in the terminal
 * In the command line run pip3 install -r requirements.txt.
 * Make sure your folders are in the following format.
 
@@ -34,9 +35,6 @@ After running the script: 2 - Mijo
   | -- S5/
   
 * Keep only episode files in the season folders.
-
-* Navigate to the package folder in the terminal
-
 * In the command line run python3 main.py path to TV Series Name folder TV Series Name
   
   For example
