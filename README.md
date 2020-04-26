@@ -17,10 +17,10 @@ After running the script: 2 - Mijo
 
 # Instructions to run the script
 
-* Download the package.
+* Download the package
 * Navigate to the package folder in the terminal
-* In the command line run pip3 install -r requirements.txt.
-* Make sure your folders are in the following format.
+* In the command line run `$ pip3 install -r requirements.txt`
+* Make sure your folders are in the following format
 
   Better Call Saul/
                 
@@ -41,7 +41,7 @@ After running the script: 2 - Mijo
   
   On Linux or Mac OS
   
-  $ python3 main.py "/home/user/Better Call Saul/" "better call saul"
+  `$ python3 main.py "/home/user/Better Call Saul/" "better call saul"`
   
   # Screenshot
   
@@ -49,7 +49,7 @@ After running the script: 2 - Mijo
   
   On Windows
   
-  \> python3 main.py "C:\\\New folder\\\Better Call Saul\\\\" "better call saul"
+  `\> python3 main.py "C:\\\New folder\\\Better Call Saul\\\\" "better call saul"`
   
   # Screenshot
   
