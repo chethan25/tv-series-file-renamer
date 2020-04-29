@@ -58,3 +58,7 @@ After running the script: 2 - Mijo
 # Video Demo
 
   ![Video](https://imgur.com/macIIWh.gif)
+
+# Disclaimer
+
+This code is intended for educational purposes only, and should not be used to violate Imdb's usage terms and conditions. Please refer to Imdb's terms and conditions [here](https://www.imdb.com/conditions/).
